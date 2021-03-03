@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(24, 20, 20);
+
+}
+
+.calculator{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgb(161, 168, 151);
+    width: 50rem;   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-width: 2rem;
+    border-style: outset;
+    border-radius: 4rem;
+    
+}
+
+.text{
+    
+    background-color: rgb(231, 231, 231);
+    padding: 1rem 1rem 1rem 35rem;
+    margin: 2rem 2rem;
+
+    border-style: inset;
+    text-align: center;
+
+}
+
+.row{
+    position: relative;
+    width: 50rem;
+    height: 10rem;
+}
+
+.button{
+    margin: 0.5rem 0.5rem;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-style: outset;
+    
+}
+.button:first-child {
+    background-color: rgb(204, 212, 204);
+    position: absolute;
+    top: 0;
+    left: 4rem;
+}
+
+.button:nth-child(2) {
+    background-color: rgb(204, 212, 204);
+    position: absolute;
+    top: 0;
+    left: 15rem;
+}
+
+.button:nth-child(3) {
+    background-color: rgb(204, 212, 204);
+    position: absolute;
+    top: 0;
+    right: 15rem;
+}
+
+.button:last-child {
+    background-color: rgb(204, 212, 204);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
