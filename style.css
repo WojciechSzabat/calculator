@@ -51,7 +51,13 @@ body{
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-style: outset;
-    
+}    
+.button:hover{
+   background-color: rgb(131, 153, 99);
+   cursor:pointer; 
+   color:rgba(100, 100, 92, 0.952);
+   border-style: inset;
+
 }
 .button:first-child {
     background-color: rgb(204, 212, 204);
